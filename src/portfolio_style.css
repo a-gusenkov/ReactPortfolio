@@ -1,0 +1,283 @@
+nav{
+    background-color: rgb(34, 34, 33);
+
+}
+body{
+    background-color: rgb(34, 34, 33) ;
+}
+.yellow:hover{
+    color : rgb(204, 166, 255);
+}
+
+.intro{
+    padding-bottom: 4em;
+    padding-top: 5em;
+   color: rgb(233, 232, 232);
+   font-size: 1.1em;
+}
+
+.lineImg{
+   padding-top:3em;
+}
+.gitImg, .lnkImg{
+   
+    max-width: 10%;
+    padding-left: .2em;
+}
+.email{
+    font-size: 1.4em;
+    justify-content: center;
+   
+}
+.myPhoto{
+    max-width: 60%;
+}
+.textAbout{
+    align-items: center;
+
+}
+div.textAbout p{
+    font-size: 1.2em;
+}
+.exp{
+    padding-top:2em;
+    color: rgb(211, 209, 209);
+}
+h3{
+    padding-top: .5em;
+    padding-bottom: .5em;
+    color: rgb(171, 234, 253);
+}
+.titl{
+    text-align: center;
+    color: rgb(211, 209, 209);
+}
+
+.schoolT{
+    font-size: 1.4em;
+    font-weight: 800;
+    padding-top: 2em;
+}
+ .schoolD{
+    font-weight: 200;
+    font-size: 1.3em;
+    font-style: italic;
+}
+.rightSide{
+    float: right;
+    font-style: italic;
+    font-size: 1.2em;
+}
+.edu{
+    font-size: 1.1em;
+}
+.projects, .projs, .graphDesign{
+    padding-top: 3em;
+}
+
+.projDes{
+    
+        font-size: 1.5em;
+        color: rgb(211, 209, 209);
+    
+    
+}
+.overlay2, .overlay1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(241, 198, 241, 0.75);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+/* .overly2{
+    left: 0;
+}
+.text{
+    color: rgb(16, 49, 80);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.somnum:hover .overlay2{
+    width:100%;
+}
+.hopMath:hover .overlay1{
+    width:100%;
+}
+.noDecor{
+    color: rgb(16, 49, 80);
+}
+.noDecor:link {
+    text-decoration: none;
+  }
+  
+.noDecor:visited {
+    text-decoration: none;
+  }
+  
+.noDecor:hover {
+    text-decoration: none;
+    color:rgb(41, 6, 39);
+  }
+  
+.noDecor:active {
+    text-decoration: none;
+  } */
+
+footer{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+    color:rgb(122, 121, 120);
+}
+.thumb{
+    border: rgb(160, 66, 160);
+    border-style:solid;
+    border-width: 1px;
+    border-radius:25px;
+    padding:.5em;
+}
+.imageAbout{
+    max-width: 100%;
+}
+.collapsrPad{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.expPad{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.accorBG{
+   
+}
+.bg{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(191, 212, 221);
+    color: rgb(51, 49, 49);
+    border-color: rgb(34, 34, 33);
+}
+.bgA{
+    background-color: black;
+}
+
+.imgSom{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #b593d1;
+}
+.overlay3{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #daa025;
+}
+.overlay4{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #7f129b;
+}
+.overlay5{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #324ecc;
+}
+.overlay1{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #b593d1;
+}
+.somnum:hover .overlay2{
+    opacity: 1;
+}
+.somnum:hover .overlay3{
+    opacity: 1;
+}
+.somnum:hover .overlay4{
+    opacity: 1;
+}
+.somnum:hover .overlay5{
+    opacity: 1;
+}
+.hopMath:hover .overlay1{
+    opacity: 1;
+}
+.somnum, .hopMath{
+    
+        position: relative;
+        
+      
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  p,h5{
+    color: rgb(233, 232, 232);
+  }
+  .animationVideo{
+      padding-top: 3em;
+      /* text-align: center;
+      
+      justify-content: center;
+      
+      display: flex; */
+    align-items: center;
+    display:inline-block;
+  }
+  .gameProj{
+      padding-top: 3em;
+  }
